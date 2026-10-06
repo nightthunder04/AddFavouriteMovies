@@ -1,0 +1,36 @@
+.home {
+    padding: 2rem;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
